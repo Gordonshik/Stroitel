@@ -1,0 +1,95 @@
+#questions {
+    margin-bottom: 150px;
+}
+
+.questions_header {
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #F7654A;
+}
+
+.answers {
+text-align: center;
+margin-bottom: 50px;
+margin-top: 150px;
+}
+
+.card-body {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #999999;
+margin-top: -1em;
+margin-bottom: 40px;
+height: 83px;
+}
+
+.accordion {
+    background-color: #fff;
+    border: none;
+}
+
+.card-header {
+    background: #fff;
+}
+
+.polygon {
+    width: 15px;
+height: 15px;
+margin-bottom: 5px;
+margin-right: 15px;
+}
+
+.show_polygon {
+    transform: rotate(-90deg);
+}
+
+.card-text {
+    width: 730px;
+}
+
+@media (max-width: 575.98px) { 
+    .card-text {
+        width: 400px;
+    }
+    
+    .card-body {
+        margin-bottom: 100px;
+    }
+}
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .card-text {
+        width: 450px;
+    }
+    
+    .card-body {
+        margin-bottom: 70px;
+    }
+}
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+.card-text {
+    width: 600px;
+}
+
+.card-body {
+    margin-bottom: 50px;
+}
+}
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { 
+
+}

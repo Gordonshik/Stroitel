@@ -1,0 +1,88 @@
+.our_projects {
+  margin-top: 270px;
+  margin-bottom: 60px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #404149;
+}
+
+.our_projects_item {
+  width: 380px;
+}
+
+.our_projects_img {
+  width: 350px;
+  height: 380px;
+}
+
+.our_projects_rectangle {
+  margin-top: 45px;
+  margin-bottom: 15px;
+  width: 55px;
+  height: 6px;
+  background: #f7654a;
+}
+
+.our_projects_name {
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #404149;
+}
+
+.our_projects_text {
+  font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #999999;
+margin-bottom: 128px;
+width: 350px;
+}
+
+@media (max-width: 575.98px) { 
+  .our_projects_item {
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .our_projects_item {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .our_projects_img {
+    width: 400px;
+    margin-left: -25px;
+  }
+}
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .our_projects_item {
+    display: block;
+    margin: 0 auto;
+  }
+
+  
+}
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { 
+
+}

@@ -1,0 +1,40 @@
+.portfolio_img {
+    width: 410px;
+    height: 407px;
+}
+
+@media (max-width: 575.98px) { 
+    .portfolio_img {
+        width: 230px;
+        height: 230px;
+    }
+}
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .portfolio_img {
+        width: 270px;
+        height: 270px;
+    }
+}
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .portfolio_img {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .portfolio_img {
+        width: 270px;
+        height: 270px;
+    }
+}
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { 
+
+}

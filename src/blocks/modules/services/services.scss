@@ -1,0 +1,75 @@
+.services_intro {
+  margin-top: 150px;
+  margin-bottom: 66px;
+  font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+
+.service_item {
+  width: 350px;
+height: 250px;
+background: #F7F7F7;
+margin-bottom: 30px;
+}
+
+.last {
+  margin-bottom: 150px;
+}
+
+.our_service_img {
+  display: block;
+  margin: 59px auto 30px auto;
+  width: 60px;
+height: 40px;
+}
+
+.our_service_name { 
+  margin-bottom: 59px;
+  font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 31px;
+text-align: center;
+letter-spacing: 0.02em;
+}
+
+.first_line {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 575.98px) { 
+  .service_item {
+    width: 215px;
+  }
+}
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .service_item {
+    width: 250px;
+  }
+}
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .service_item {
+    width: 220px;
+  }
+}
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+.service_item {
+  width: 300px;
+}
+}
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { 
+
+}
